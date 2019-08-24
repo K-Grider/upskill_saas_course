@@ -17,10 +17,12 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+// Typography Styles
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+// Gackground Gradient
 .home-callout, .navbar {
   // Gradient made at cssgradient.io
   background: rgb(1,15,17);
@@ -30,28 +32,20 @@ h1, h2, h3 {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010f11",endColorstr="#037b94",GradientType=1);
 }
 
+// Nav Styles
 .navbar {
   border: none;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand,.navbar-default .navbar-nav > li > a {
   color: white;
+  &:hover{
+    color: white;
+    opacity: 0.65;
+  }
 }
 
-.navbar-default .navbar-nav > li > a {
-  color: white;
-}
-
-.navbar-default .navbar-brand:hover {
-  color: white;
-  opacity: 0.65;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: white;
-  opacity: 0.65;
-}
-
+// Homepage Styles
 .home-callout {
   color: white;
   margin-top: -20px;
