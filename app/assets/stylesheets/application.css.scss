@@ -21,7 +21,7 @@ h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-body, .navbar {
+.home-callout, .navbar {
   // Gradient made at cssgradient.io
   background: rgb(1,15,17);
   background: -moz-linear-gradient(90deg, rgba(1,15,17,1) 0%, rgba(1,32,37,1) 37%, rgba(1,49,56,1) 59%, rgba(3,123,148,1) 100%);
@@ -32,4 +32,11 @@ body, .navbar {
 
 .navbar {
   border: none;
+}
+
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
