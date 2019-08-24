@@ -20,3 +20,16 @@
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
+
+body, .navbar {
+  // Gradient made at cssgradient.io
+  background: rgb(1,15,17);
+  background: -moz-linear-gradient(90deg, rgba(1,15,17,1) 0%, rgba(1,32,37,1) 37%, rgba(1,49,56,1) 59%, rgba(3,123,148,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(1,15,17,1) 0%, rgba(1,32,37,1) 37%, rgba(1,49,56,1) 59%, rgba(3,123,148,1) 100%);
+  background: linear-gradient(90deg, rgba(1,15,17,1) 0%, rgba(1,32,37,1) 37%, rgba(1,49,56,1) 59%, rgba(3,123,148,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010f11",endColorstr="#037b94",GradientType=1);
+}
+
+.navbar {
+  border: none;
+}
