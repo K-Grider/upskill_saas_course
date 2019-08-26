@@ -178,15 +178,9 @@ DEPENDENCIES
   rails (= 5.0.0)
   sass-rails (= 5.0.6)
   spring
-<<<<<<< HEAD
-  spring-watcher-listen (~> 2.0.0)
-  sqlite3 (= 1.3.13)
-  turbolinks (~> 5)
-=======
   spring-watcher-listen (= 2.0.0)
   sqlite3 (= 1.3.13)
   turbolinks (= 5.0.0)
->>>>>>> pages_and_layout
   tzinfo-data
   uglifier (= 3.0.0)
   web-console
